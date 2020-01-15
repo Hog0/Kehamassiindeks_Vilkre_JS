@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Kehamassiindeks Vilkre</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div id="main" class="card">
+                    <!-- INPUT -->
+                    <div class="card-content">
+                        <span class="card-title"><b>Kehamassiindeks Kalkulaator</b></span>
+                        <div class="row">
+                            <form class="col s12" id="input-form">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input type="text" id="name">
+                                        <label for="name">Name</label>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input type="number" id="mass">
+                                        <label for="mass">Mass (kg)</label>
+                                    </div>
+                                </div>
+                                    
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input type="number" id="length">
+                                        <label for="length">Length (Cm)</label>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input type="number" id="age">
+                                        <label for="age">Age</label>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input type="submit" value="Convert" class="btn pink">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- CONVERTED - FILTER AND REPLAY -->
+                    <div class="card-action">
+                        <h5 id="Details-title">Replay</h5>
+                        <ul class="collection">
+
+                        </ul>
+                        <a href="#" class="clear-replay btn pink">Clear Replay</a>
+                    </div>
+                    <div class="card-action">
+                        <h5 id="BMI-box">Body mass index</h5>
+                        <ul class="category">
+                            <li>Unhealthy Underweight 0 - 16</li>
+                            <li>Underweight 16 - 18.5</li>
+                            <li>Normal Weight 18.6 - 25</li>
+                            <li>Overweight 25.1 - 30</li>
+                            <li>Obesity 30.1 - 35</li>
+                            <li>Strong Obesity: 35.1 - 40</li>
+                            <li>Unhealthy Obesity 40.1 - ...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://kit.fontawesome.com/e8ff089527.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+body{
+    background-color: #e7216359
+}
+
+.category {
+    font-size: large;
+}
+
+.far {
+color: #e91e63;
+}
+
+.input-field input[type=text] + label, .materialize-textarea:focus:not([readonly]) + label {
+color: #e91e63 !important;
+}
+
+.input-field input[type=text], .materialize-textarea:focus:not([readonly]) {
+border-bottom: 1px solid #e91e63 !important;
+box-shadow: 0 1px 0 0 #e91e63 !important;
+}
+
+
+.input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+color: #e91e63 !important;
+}
+
+.input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+border-bottom: 1px solid #e91e63 !important;
+box-shadow: 0 1px 0 0 #e91e63 !important;
+}
+
+
+.input-field input[type=number] + label, .materialize-numberarea:focus:not([readonly]) + label {
+    color: #e91e63 !important;
+}
+    
+.input-field input[type=number], .materialize-numberarea:focus:not([readonly]) {
+    border-bottom: 1px solid #e91e63 !important;
+    box-shadow: 0 1px 0 0 #e91e63 !important;
+}
+    
+    
+.input-field input[type=number]:focus + label, .materialize-numberarea:focus:not([readonly]) + label {
+    color: #e91e63 !important;
+}
+    
+.input-field input[type=number]:focus, .materialize-numberarea:focus:not([readonly]) {
+    border-bottom: 1px solid #e91e63 !important;
+    box-shadow: 0 1px 0 0 #e91e63 !important;
+}

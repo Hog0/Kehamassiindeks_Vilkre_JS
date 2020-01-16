@@ -131,8 +131,8 @@ function Calculate(e){
 
 function removeBook(event){
    
-    if(event.target.parentElement.classList.contains('delete-item')){
-        if(confirm('Are you sure you want to delete the book?')){
+    if(event.target.parentElement.parentElement.classList.contains('delete-item')){
+        if(confirm('Are you sure you want to delete that?')){
             event.target.parentElement.parentElement.remove();
             console.log(event.target.parentElement.parentElement.textContent);
         }

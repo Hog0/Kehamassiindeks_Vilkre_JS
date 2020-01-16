@@ -129,14 +129,12 @@ function Calculate(e){
     
 }
 
-function removeTask(event){
+function removeBook(event){
    
-    if(event.target.classList.contains('delete-item')){
-        if(confirm('Are you sure you want to delete the task?')){
-            event.target.parentElement.remove();
-            console.log(event.target.parentElement.textContent);
-            //Remove from local storage
-            removeTaskFromLocalStorage(event.target.parentElement);
+    if(event.target.parentElement.classList.contains('delete-item')){
+        if(confirm('Are you sure you want to delete the book?')){
+            event.target.parentElement.parentElement.remove();
+            console.log(event.target.parentElement.parentElement.textContent);
         }
     }
 }
